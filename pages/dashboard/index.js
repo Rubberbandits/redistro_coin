@@ -9,7 +9,7 @@ const TokenDashboard = dynamic(() => import('../../components/token_dashboard'),
 export default function Dashboard() {
 	return (
 		<>
-			<Script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/lib/index.min.js" strategy="beforeInteractive" />
+			<Script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.6.1/dist/web3.min.js" strategy="beforeInteractive" />
 			<TokenDashboard />
 		</>
 	)

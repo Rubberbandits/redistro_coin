@@ -47,7 +47,7 @@ export default function Home() {
 					<div className="container px-5 py-24 mx-auto">
 						<div className="flex flex-col text-center w-full mb-20">
 							<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4">How it Works</h1>
-							<p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our Tokenomics ensure that users are rewarding for participating in building SimulaCoin. The coin we create togher will act as a DAO, to vote for the direction of our community coin, what marketing approaches we take, & even vote on who we choose. Together we can build the coin we want to see.</p>
+							<p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our tokenomics ensure that users are rewarding for participating in building SimulaCoin. The coin we create together will act as a DAO, to vote for the direction of our community coin, what marketing approaches we take, and even vote on who we choose. Together we can build the coin we want to see.</p>
 						</div>
 
 						<div className="flex flex-wrap -m-4 text-center justify-center">

@@ -19,13 +19,19 @@ export default function Home() {
 
 						<span className="ml-3 text-xl">SimulaCoin</span>
 					</a>
-					<nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+					<nav className="md:ml-auto flex flex-col sm:flex-row flex-wrap items-center text-base justify-center">
 						<Link href="/dashboard">
-							<a className="mr-5 hover:text-primary">Dashboard</a>
+							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Dashboard</button>
 						</Link>
-						<a href="#" className="mr-5 hover:text-primary">Swap</a>
-						<a href="https://discord.gg/AwEGN7HNrh" className="mr-5 hover:text-primary">Discord</a>
-						<a href="#" className="mr-5 hover:text-primary">Twitter</a>
+						<a href="#">
+							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Swap</button>
+						</a>
+						<a href="https://discord.gg/AwEGN7HNrh">
+							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Discord</button>
+						</a>
+						<a href="#">
+						<button className="btn btn-primary btn-wide sm:w-min sm:mb-0 sm:mr-5">Twitter</button>
+						</a>
 					</nav>
 				</div>
 			</header>
@@ -33,7 +39,7 @@ export default function Home() {
 			<main>
 				<section className="body-font">
 					<div className="pb-2 max-w-full w-screen flex items-center justify-center">
-						<div className="pt-2" style={{ position: 'relative', width: '100vw', height: '33.33vw' }} className="shadow-inner drop-shadow-xl brightness-75">
+						<div className="pt-2" style={{ position: 'relative', width: '100vw' }} className="shadow-inner drop-shadow-xl brightness-75 h-96 md:h-72">
 							<Image 
 								src="/expand.jpg"
 								layout="fill"

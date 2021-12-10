@@ -24,7 +24,7 @@ export default function Home() {
 							<a className="mr-5 hover:text-primary">Dashboard</a>
 						</Link>
 						<a href="#" className="mr-5 hover:text-primary">Swap</a>
-						<a href="#" className="mr-5 hover:text-primary">Discord</a>
+						<a href="https://discord.gg/AwEGN7HNrh" className="mr-5 hover:text-primary">Discord</a>
 						<a href="#" className="mr-5 hover:text-primary">Twitter</a>
 					</nav>
 				</div>

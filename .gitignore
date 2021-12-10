@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+redistro_coin.code-workspace
+package-lock.json

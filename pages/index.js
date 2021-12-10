@@ -88,7 +88,7 @@ export default function Home() {
 									</svg>
 
 									<h2 className="title-font font-medium text-lg xl:text-3xl">5%</h2>
-									<p className="leading-relaxed">per/tx USDC Rewards</p>
+									<p className="leading-relaxed">per/swap USDC Rewards</p>
 								</div>
 							</div>
 
@@ -100,7 +100,7 @@ export default function Home() {
 									</svg>
 
 									<h2 className="title-font font-medium text-lg xl:text-3xl">2%</h2>
-									<p className="leading-relaxed">per/tx to Treasury/Liquidity</p>
+									<p className="leading-relaxed">per/swap to Treasury/Liquidity</p>
 								</div>
 							</div>
 						</div>

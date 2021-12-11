@@ -11,6 +11,7 @@ export default function Home() {
 				<meta content="Reality becomes what you make it." property="og:description" />
 
 				<meta content='/seesall.png' property='og:image' />
+				<meta name="theme-color" content="#570df8" />
 
 				<link type="application/json+oembed" href="/embed.json" />
 			</Head>

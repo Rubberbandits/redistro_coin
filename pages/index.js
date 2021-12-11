@@ -7,8 +7,9 @@ export default function Home() {
 		<>
 			<Head>
 				<title>SimulaCoin | Craft Financial Reality via Stablecoin Earnings</title>
-				<meta content="SimulaCoin | Craft Financial Reality via Stablecoin Earnings" property="og:title" />
-				<meta content="Reality becomes what you make it." property="og:description" />
+
+				<meta content="SimulaCoin" property="og:title" />
+				<meta content="Reality becomes what you make it. Join us to help craft our own via Stablecoin Earnings." property="og:description" />
 
 				<meta content='/seesall.png' property='og:image' />
 				<meta name="theme-color" content="#570df8" />

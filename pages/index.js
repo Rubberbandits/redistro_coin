@@ -71,7 +71,7 @@ export default function Home() {
 					<div className="container px-5 py-24 mx-auto">
 						<div className="flex flex-col text-center w-full mb-20">
 							<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4">How it Works</h1>
-							<p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our tokenomics ensure that users are rewarding for participating in building SimulaCoin. The coin we create together will act as a DAO, to vote for the direction of our community coin, what marketing approaches we take, and even vote on who we choose. Together we can build the coin we want to see.</p>
+							<p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our tokenomics ensure that users are rewarded for participating in building SimulaCoin. SimulaCoin gives back 5% of all transactions to users in JOE. JOE can then be staked on Trader Joe's official site for the current 7 day average APR of 40.20787%. With these Tokenomics, you are not only getting rewarded for holding SimulaCoin, but also for staking, compounding your investment in multiple ways. The treasury/liquidity will be used to create our up coming DAO, where uses can vote on marketing channels, as well as vote for who we choose to market. The direction of our coin, is in the hand of the people who deserve it the most, the buyers.</p>
 						</div>
 
 						<div className="flex flex-wrap -m-4 text-center justify-center">
@@ -117,13 +117,12 @@ export default function Home() {
 							<div className="container px-4 md:px-32 py-24 mx-auto">
 								<div className="flex flex-wrap w-full mb-20">
 									<div className="lg:w-1/2 w-full mb-6 lg:mb-0 xl:ml-16">
-										<h1 className="sm:text-3xl text-2xl font-medium title-font mb-2">Success Assured</h1>
+										<h1 className="sm:text-3xl text-2xl font-medium title-font mb-2">About</h1>
 										<div className="h-1 w-20 bg-primary rounded"></div>
 									</div>
 
 									<div className="relative prose prose-sm">
 										<ul>
-											<li>We chose x amount of coins because</li>
 											<li>5% of every transaction goes back to holders, allower users to profit from even market dips.</li>
 											<li>Together, our treasury will be used to create our up coming DAO.</li>
 											<li>To ensure your order goes through, please use at least 12% Slippage.</li>

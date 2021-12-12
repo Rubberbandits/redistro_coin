@@ -95,7 +95,7 @@ export default function Home() {
 									</svg>
 
 									<h2 className="title-font font-medium text-lg xl:text-3xl">5%</h2>
-									<p className="leading-relaxed">per/swap USDC Rewards</p>
+									<p className="leading-relaxed">per/swap in $JOE Rewards</p>
 								</div>
 							</div>
 

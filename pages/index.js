@@ -71,7 +71,7 @@ export default function Home() {
 					<div className="container px-5 py-24 mx-auto">
 						<div className="flex flex-col text-center w-full mb-20">
 							<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4">How it Works</h1>
-							<p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our tokenomics ensure that users are rewarded for participating in building SimulaCoin. SimulaCoin gives back 5% of all transactions to users in JOE. JOE can then be staked on Trader Joe's official site for the current 7 day average APR of 40.20787%. With these Tokenomics, you are not only getting rewarded for holding SimulaCoin, but also for staking, compounding your investment in multiple ways. The treasury/liquidity will be used to create our up coming DAO, where uses can vote on marketing channels, as well as vote for who we choose to market. The direction of our coin, is in the hand of the people who deserve it the most, the buyers.</p>
+							<p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our tokenomics ensure that users are rewarded for participating in building SimulaCoin, which gives back 5% of swap transactions to users in $JOE. $JOE can then be staked on Trader Joe's official site for the current 7 day average APR of 40.20787%. With these tokenomics, you are not only getting rewarded for holding SimulaCoin, but also for staking, compounding your investment in multiple ways. The treasury/liquidity will be used to create our upcoming DAO, where members can vote on marketing channels, as well as vote for who we choose to market. The direction of our coin, is in the hand of the people who deserve it the most, the buyers.</p>
 						</div>
 
 						<div className="flex flex-wrap -m-4 text-center justify-center">
@@ -123,8 +123,8 @@ export default function Home() {
 									<div className="relative prose prose-sm">
 										<ul>
 											<li>5% of every transaction goes back to holders, allower users to profit from even market dips.</li>
-											<li>Together, our treasury will be used to create our up coming DAO.</li>
-											<li>To ensure your order goes through, please use at least 12% Slippage.</li>
+											<li>Together, our treasury will be used to create our upcoming DAO.</li>
+											<li>To ensure your order goes through, please use at least 12% slippage.</li>
 										</ul>
 									</div>
 								</div>

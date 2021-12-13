@@ -466,12 +466,6 @@ export default class TokenDashboard extends React.Component {
 								<iframe src={`https://dexscreener.com/avalanche/${SWAP_ADDRESS}`} className="w-full h-128" title="DEXScreener" />
 							</div>
 						</div>
-
-						<div className="flex flex-col mt-4">
-							<div className="flex h-5/6 justify-center items-center m-4">
-								<iframe src={`https://traderjoexyz.com/#/stake`} className="w-full h-128" title="TraderJoe Stake" />
-							</div>
-						</div>
 					</div>
 				</main>
 			</>

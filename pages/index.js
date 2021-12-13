@@ -28,12 +28,12 @@ export default function Home() {
 						<span className="ml-3 text-xl">SimulaCoin</span>
 					</a>
 					<nav className="md:ml-auto flex flex-col sm:flex-row flex-wrap items-center text-base justify-center">
-						<Link href="/dashboard">
+						{/*<Link href="/dashboard">
 							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Dashboard</button>
 						</Link>
-						<a href="#">
+						<Link href="/swap">
 							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Swap</button>
-						</a>
+						</Link>*/}
 						<a href="https://discord.gg/AwEGN7HNrh">
 							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Discord</button>
 						</a>
@@ -82,7 +82,7 @@ export default function Home() {
 									</svg>
 
 									<h2 className="title-font font-medium text-lg xl:text-3xl">100,000,000,000</h2>
-									<p className="leading-relaxed">$SIMULA</p>
+									<p className="leading-relaxed">$SIMULA&nbsp;</p>
 								</div>
 							</div>
 
@@ -95,7 +95,7 @@ export default function Home() {
 									</svg>
 
 									<h2 className="title-font font-medium text-lg xl:text-3xl">5%</h2>
-									<p className="leading-relaxed">per/swap in $JOE Rewards</p>
+									<p className="leading-relaxed">per/swap in $JOE Rewards&nbsp;</p>
 								</div>
 							</div>
 
@@ -107,7 +107,7 @@ export default function Home() {
 									</svg>
 
 									<h2 className="title-font font-medium text-lg xl:text-3xl">2%</h2>
-									<p className="leading-relaxed">per/swap to Treasury/Liquidity</p>
+									<p className="leading-relaxed">per/swap to Treasury/Liquidity&nbsp;</p>
 								</div>
 							</div>
 						</div>
@@ -131,7 +131,7 @@ export default function Home() {
 							</div>
 						</section>
 
-						<div className="flex items-center justify-center flex-col md:flex-row">
+						{/*<div className="flex items-center justify-center flex-col md:flex-row">
 							<Link href="/dashboard">
 								<button className="btn btn-primary mb-2 md:mb-0 md:mr-2 w-48">View Dashboard</button>
 							</Link>
@@ -139,7 +139,7 @@ export default function Home() {
 							<a href="#">
 								<button className="btn btn-primary w-48">Purchase</button>
 							</a>
-						</div>
+						</div>*/}
 					</div>
 				</section>
 			</main>

@@ -316,7 +316,7 @@ export default class TokenDashboard extends React.Component {
 		erc20.methods.balanceOf(address).call({from: address})
 			.then(result => {
 				this.setState({
-					balanceSIMULA: web3.utils.fromWei(result[0])
+					balanceSIMULA: web3.utils.fromWei(result[0], "gwei")
 				})
 			})
 

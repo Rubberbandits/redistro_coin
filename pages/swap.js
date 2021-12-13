@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-const ERC20_ADDRESS = "0x3f3fea5dd9b1940c2ee4822d7b7a06f19d58656e";
+const ERC20_ADDRESS = "0x722fcf5021b87911ef5602572501c81999bf8266";
 
 export default function Swap() {
 	return (

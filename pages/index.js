@@ -31,7 +31,7 @@ export default function Home() {
 						<Link href="/dashboard">
 							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Dashboard</button>
 						</Link>
-						<Link href="/swap">
+						<Link href="https://traderjoexyz.com/#/trade?outputCurrency=0x97f56b1db9596196a7B670Dae6e9E3C016e382E4">
 							<button className="btn btn-primary btn-wide mb-2 sm:w-min sm:mb-0 sm:mr-5">Swap</button>
 						</Link>
 						<a href="https://discord.gg/AwEGN7HNrh">
@@ -124,7 +124,7 @@ export default function Home() {
 										<ul>
 											<li>5% of every transaction goes back to holders, allower users to profit from even market dips.</li>
 											<li>Together, our treasury will be used to create our upcoming DAO.</li>
-											<li>To ensure your order goes through, please use at least 12% slippage.</li>
+											<li>To ensure your order goes through, please use at least 14% slippage.</li>
 										</ul>
 									</div>
 								</div>
@@ -136,7 +136,7 @@ export default function Home() {
 								<button className="btn btn-primary mb-2 md:mb-0 md:mr-2 w-48">View Dashboard</button>
 							</Link>
 
-							<a href="#">
+							<a href="https://traderjoexyz.com/#/trade?outputCurrency=0x97f56b1db9596196a7B670Dae6e9E3C016e382E4">
 								<button className="btn btn-primary w-48">Purchase</button>
 							</a>
 						</div>

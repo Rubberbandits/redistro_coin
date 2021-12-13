@@ -316,21 +316,21 @@ export default class TokenDashboard extends React.Component {
 		erc20.methods.balanceOf(address).call({from: address})
 			.then(result => {
 				this.setState({
-					balanceSIMULA: web3.utils.fromWei(result[0], "gwei")
+					balanceSIMULA: web3.utils.fromWei(result, "wei")
 				})
 			})
 
 		distributor.methods.getUnpaidEarnings(address).call({from: address})
 			.then(result => {
 				this.setState({
-					currentEarnings: web3.utils.fromWei(result[0])
+					currentEarnings: web3.utils.fromWei(result)
 				})
 			})
 
 		stable.methods.balanceOf(address).call({from: address})
 			.then(result => {
 				this.setState({
-					balanceUSDC: web3.utils.fromWei(result[0])
+					balanceUSDC: web3.utils.fromWei(result)
 				})
 			})
 	}
@@ -396,7 +396,7 @@ export default class TokenDashboard extends React.Component {
 															$SIMULA BALANCE
 														</h5>
 
-														<span className="font-semibold text-xl">
+														<span className="font-semibold text-lg">
 															{balanceSIMULA} $SIMULA
 														</span>
 													</div>
@@ -416,7 +416,7 @@ export default class TokenDashboard extends React.Component {
 															$JOE BALANCE
 														</h5>
 
-														<span className="font-semibold text-xl">
+														<span className="font-semibold text-lg">
 															{balanceUSDC} $JOE
 														</span>
 													</div>
@@ -435,7 +435,7 @@ export default class TokenDashboard extends React.Component {
 														UNCLAIMED REWARDS
 													</h5>
 
-													<span className="font-semibold text-xl">
+													<span className="font-semibold text-lg">
 														{currentEarnings} $JOE
 													</span>
 

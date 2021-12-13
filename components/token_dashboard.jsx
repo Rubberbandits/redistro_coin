@@ -316,21 +316,21 @@ export default class TokenDashboard extends React.Component {
 		erc20.methods.balanceOf(address).call({from: address})
 			.then(result => {
 				this.setState({
-					balanceSIMULA: result[0]
+					balanceSIMULA: web3.util.fromWei(result[0])
 				})
 			})
 
 		distributor.methods.getUnpaidEarnings(address).call({from: address})
 			.then(result => {
 				this.setState({
-					currentEarnings: result[0]
+					currentEarnings: web3.util.fromWei(result[0])
 				})
 			})
 
 		stable.methods.balanceOf(address).call({from: address})
 			.then(result => {
 				this.setState({
-					balanceUSDC: result[0]
+					balanceUSDC: web3.util.fromWei(result[0])
 				})
 			})
 	}
